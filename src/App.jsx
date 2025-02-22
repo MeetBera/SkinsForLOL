@@ -15,10 +15,10 @@ const getImage = (filename) => images[`/src/assets/${filename}`] || filename;
 
 // Champion data using local images
 const champions = [
-  { 
-    id: 1, 
-    name: "Aatrox", 
-    image: getImage("aatrox-lol-splash-art-uhdpaper.com-hd-357.jpg"), 
+  {
+    id: 1,
+    name: "Aatrox",
+    image: getImage("aatrox-lol-splash-art-uhdpaper.com-hd-357.jpg"),
     skins: [
       { name: "Default", image: getImage("aatrox-lol-splash-art-uhdpaper.com-hd-357.jpg") },
       { name: "Mecha", image: getImage("blood-moon-aattrox-splash-art.jpg") },
@@ -64,7 +64,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 6,
     name: "Ambessa",
     image: getImage("ambessa-lol-splash-art-hd-wallpaper-uhdpaper.com-560@2@b.jpg"),
@@ -73,7 +73,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 7,
     name: "Amumu",
     image: getImage("ahri.jpg"),
@@ -82,7 +82,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 8,
     name: "Anivia",
     image: getImage("ahri.jpg"),
@@ -91,7 +91,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 9,
     name: "Annie",
     image: getImage("ahri.jpg"),
@@ -100,7 +100,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 10,
     name: "Aphelios",
     image: getImage("ahri.jpg"),
@@ -109,7 +109,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 11,
     name: "Ashe",
     image: getImage("ahri.jpg"),
@@ -118,7 +118,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 12,
     name: "Aurelion Sol",
     image: getImage("ahri.jpg"),
@@ -127,7 +127,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 13,
     name: "Aurora",
     image: getImage("ahri.jpg"),
@@ -136,7 +136,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 14,
     name: "Azir",
     image: getImage("ahri.jpg"),
@@ -145,7 +145,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 15,
     name: "Bard",
     image: getImage("ahri.jpg"),
@@ -154,7 +154,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 16,
     name: "Bel'veth",
     image: getImage("ahri.jpg"),
@@ -163,7 +163,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 17,
     name: "Blitzcrank",
     image: getImage("ahri.jpg"),
@@ -172,7 +172,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 18,
     name: "Brand",
     image: getImage("ahri.jpg"),
@@ -181,7 +181,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 19,
     name: "Braum",
     image: getImage("ahri.jpg"),
@@ -190,7 +190,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 20,
     name: "Briar",
     image: getImage("ahri.jpg"),
@@ -199,7 +199,7 @@ const champions = [
       { name: "Star Guardian", image: getImage("ahri_starguardian.jpg") },
       { name: "K/DA", image: getImage("ahri_kda.jpg") }
     ]
-  },{
+  }, {
     id: 21,
     name: "Caitlyn",
     image: getImage("ahri.jpg"),
@@ -220,12 +220,6 @@ const champions = [
     ]
   }
 ];
-
-
-champions.forEach((champ) => {
-  console.log(`Champion: ${champ.name}`, champ.skins);
-});
-
 
 
 const ChampionList = () => {
@@ -285,6 +279,25 @@ const SkinImage = ({ src, alt }) => {
 };
 
 
+const downloadImage = async (imageUrl, imageName) => {
+  try {
+    const response = await fetch(imageUrl);
+    const blob = await response.blob();
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = imageName || "skin-image.jpg";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  } catch (error) {
+    console.error("Error downloading image:", error);
+  }
+};
+
+
 const ChampionDetail = () => {
   const { id } = useParams();
   const champion = champions.find((c) => c.id === parseInt(id));
@@ -315,13 +328,13 @@ const ChampionDetail = () => {
               </div>
 
               {/* Download Button (Always Below Image & Name) */}
-              <a 
-                href={skin.image} 
-                download={skin.name} 
+              <button
+                onClick={() => downloadImage(skin.image, skin.name)}
                 className="px-6 py-2 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105 hover:from-purple-500 hover:to-blue-500"
               >
                 Download
-              </a>
+              </button>
+
             </SwiperSlide>
           ))}
         </Swiper>
@@ -334,11 +347,12 @@ const ChampionDetail = () => {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/SkinsForLOL">
       <Routes>
         <Route path="/" element={<ChampionList />} />
         <Route path="/champion/:id" element={<ChampionDetail />} />
       </Routes>
     </Router>
+
   );
 }
